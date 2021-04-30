@@ -1,5 +1,6 @@
 # version 0.1
 import os
+import random
 from flask import Flask
 from flask import render_template
 
