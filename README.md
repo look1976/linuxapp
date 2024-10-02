@@ -12,4 +12,4 @@ Procedure for AKS @ Kodekloud
 8. reate deployment: kubectl create deployment DEPLOYMENTNAME --image=look1976/linuxapp:v1 --replicas=1
 9. Check depl: kubectl get deployment
 10. Create SVC using LB: kubectl expose deployment kodekloudapp --type=LoadBalancer --port=80 --target-port=80
-11 . Get public IP: kubectl get service
+11 .Get public IP: kubectl get service
